@@ -1,0 +1,18 @@
+#Sample destination configuration when using an application server over CPIC
+#Replace the dummy values and put this file in the working directory.
+#In eclipse environment it is the project root directory.
+jco.client.ashost=000.000.000.00 #어플리케이션 서버
+jco.client.sysnr=00 #인스턴스 번호
+jco.client.client=100 #클라이언트 번호
+jco.client.user=00000 #유저 아이디
+jco.client.passwd=eiUa~?+^m03Mo@`mBBE}:u$CSpQPL-021#B_1A_]u]QuFau2 #유저 비밀번호
+jco.client.lang=en #로그온 언어
+#
+#further useful standard properties (see documentation in DestinationDataProvider)
+#those are independent from the connection type
+jco.destination.repository_roundtrip_optimization=1
+jco.client.serialization_format=columnBased
+jco.client.network=lan
+jco.destination.pool_capacity=10
+jco.destination.expiration_time=600000
+jco.destination.expiration_check_period=120000
