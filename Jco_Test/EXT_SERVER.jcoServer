@@ -1,0 +1,8 @@
+#A sample configuration for a standard registered server 
+#Replace the dummy values and put this file in the working directory.
+#In eclipse environment it is the project root directory.
+jco.server.connection_count=20 #게이트웨이 연결 개수
+jco.server.gwhost=000.000.0.00 #sap gateway 서버 이름 또는 IP 주소
+jco.server.progid=PROGRAMID #RFC에 지정한 Program ID
+jco.server.gwserv=sapgw00 #게이트웨이 포트번호
+jco.server.repository_destination=ABAP_AS1 #SAP 접속 정보
